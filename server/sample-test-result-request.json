@@ -1,0 +1,12 @@
+{
+  "user_id": "user-demo-1",
+  "acuity_left": "20/30",
+  "acuity_right": "20/25",
+  "contrast": 0.82,
+  "reliability": "MEDIUM",
+  "timestamp": "2026-04-23T12:00:00Z",
+  "symptoms": {
+    "distance_blur": "MILD",
+    "near_difficulty": "NONE"
+  }
+}

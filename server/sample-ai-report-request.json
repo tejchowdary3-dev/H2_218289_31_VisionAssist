@@ -1,0 +1,30 @@
+{
+  "user_profile": { "age": 32, "screen_time_hours_per_day": 6 },
+  "symptoms": {
+    "distance_blur": "MODERATE",
+    "near_difficulty": "MILD",
+    "eye_strain": "MODERATE",
+    "night_vision": "MILD"
+  },
+  "test_results": {
+    "acuity_right_snellen_approx": "20/25",
+    "acuity_left_snellen_approx": "20/30",
+    "near_vision_score_0_1": 0.62,
+    "contrast_score_0_1": 0.78,
+    "astigmatism_subjective_flag": false,
+    "reliability": "HIGH"
+  },
+  "behavior": {
+    "avg_response_time_ms": 2100,
+    "retries": 1,
+    "line_consistency_0_1": 0.72
+  },
+  "environment": { "lighting_good": true, "distance_good": true },
+  "history": [
+    {
+      "timestamp": "2026-04-01T10:00:00Z",
+      "acuity_right_snellen_approx": "20/30",
+      "acuity_left_snellen_approx": "20/40"
+    }
+  ]
+}

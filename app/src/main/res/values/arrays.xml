@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Order matches how many eye clinics structure a basic screening visit (self-guided; not a substitute for a licensed exam). -->
+    <string-array name="exam_protocol_steps">
+        <item>Case history — brief demographics and symptom questions (screening only).</item>
+        <item>Room setup — calibrate on-screen width so letter size approximates a wall chart (still device-dependent).</item>
+        <item>Optional blur ladder — pick the row that feels closest to your uncorrected blur (illustration only, not a prescription).</item>
+        <item>Distance visual acuity — each eye tested alone (OD then OS) with the fellow eye fully covered.</item>
+        <item>Near vision — both eyes at a habitual reading distance.</item>
+        <item>Supplemental checks — simple astigmatism-style pattern and a contrast comparison task.</item>
+        <item>Summary — plain-language findings and when to seek in-person care.</item>
+    </string-array>
+</resources>

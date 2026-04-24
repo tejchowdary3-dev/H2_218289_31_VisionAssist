@@ -1,0 +1,30 @@
+{
+  "letters": "CDEHKNOPRSTUVZ",
+  "line_length": 5,
+  "correct_threshold": 4,
+  "max_retries_per_level": 1,
+  "contrast_rounds": 3,
+  "snellen_levels": [
+    { "label": "20/200", "font_sp": 34.0 },
+    { "label": "20/100", "font_sp": 30.0 },
+    { "label": "20/70", "font_sp": 26.0 },
+    { "label": "20/50", "font_sp": 22.0 },
+    { "label": "20/40", "font_sp": 19.0 },
+    { "label": "20/30", "font_sp": 16.0 },
+    { "label": "20/25", "font_sp": 14.0 },
+    { "label": "20/20", "font_sp": 12.0 },
+    { "label": "20/15", "font_sp": 10.0 }
+  ],
+  "near_option_scores": [0.35, 0.62, 0.88],
+  "instructions": {
+    "right_eye": "OD (right eye): occlude OS completely. Read the smallest row you can, left to right, without guessing.",
+    "left_eye": "OS (left eye): occlude OD completely. Same task — smallest clear row, left to right.",
+    "initial_helper": "Record at least 4 of 5 letters correctly on this row to move to a smaller (harder) row — as in threshold acuity testing.",
+    "retry_helper": "Same row size — new letters. Take your time; call each letter clearly.",
+    "switch_eye_helper": "Cover the fellow eye fully before starting the next eye.",
+    "near_phase": "Near vision, both eyes at your usual reading distance: choose the smallest print that remains comfortable.",
+    "astig_phase": "Radial pattern: with both eyes, do all spokes look equally sharp, or are some darker or smeared?",
+    "astig_helper": "Subjective screening only — not a diagnosis of astigmatism or any other condition.",
+    "contrast_phase": "Which side shows the letter with better contrast and clarity?"
+  }
+}

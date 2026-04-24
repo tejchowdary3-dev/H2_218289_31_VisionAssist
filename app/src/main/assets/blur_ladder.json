@@ -1,0 +1,17 @@
+{
+  "sample_line": "C D H K N O P R S T V Z",
+  "tiers": [
+    { "id": "tier_0", "blur_dp": 0.0,  "title": "Row 1 — reference (minimal blur)",
+      "diopter_feel_low": 0.0,  "diopter_feel_high": 0.0 },
+    { "id": "tier_1", "blur_dp": 1.0,  "title": "Row 2 — very mild (illustrative −0.25 to −0.50 D feel)",
+      "diopter_feel_low": 0.25, "diopter_feel_high": 0.50 },
+    { "id": "tier_2", "blur_dp": 2.0,  "title": "Row 3 — mild (illustrative −0.75 to −1.00 D feel)",
+      "diopter_feel_low": 0.75, "diopter_feel_high": 1.00 },
+    { "id": "tier_3", "blur_dp": 3.5,  "title": "Row 4 — moderate blur illustration",
+      "diopter_feel_low": 1.00, "diopter_feel_high": 1.75 },
+    { "id": "tier_4", "blur_dp": 5.5,  "title": "Row 5 — stronger blur illustration",
+      "diopter_feel_low": 1.75, "diopter_feel_high": 2.75 },
+    { "id": "tier_5", "blur_dp": 8.0,  "title": "Row 6 — strong blur illustration",
+      "diopter_feel_low": 2.75, "diopter_feel_high": 4.50 }
+  ]
+}

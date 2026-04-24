@@ -1,0 +1,18 @@
+{
+  "ai_coach": {
+    "mode": "auto",
+    "proxy_base_url": "",
+    "proxy_tip_path": "/coach/tip",
+    "allow_openai_direct_in_debug": true
+  },
+  "refraction_estimator": {
+    "blur_tier_weight": 1.0,
+    "distance_va_weight": 1.0,
+    "near_weight": 0.5,
+    "symptom_weight": 0.5,
+    "focal_pattern_weight": 0.5,
+    "va_threshold_clear": 5,
+    "va_threshold_reduced": 3,
+    "severity_bucket_breakpoints_d": [0.5, 1.25, 2.5]
+  }
+}
